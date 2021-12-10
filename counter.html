@@ -1,0 +1,32 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <script src="counter.js"></script> 
+        <link rel="stylesheet" href="counter.css">
+      
+        <title>Counter</title>
+      </head>
+      <body>
+        <div class = 'counterControl'>
+          <br />
+          <div class='addenControl'>
+            <button type="button" onclick="plus('addend1')">+</button>
+            <p id='addend1' style="margin-left: 5%">0</p>
+            <button type="button" onclick="minus('addend1')"style="margin-left: 5%">-</button>
+          </div>
+          
+          <div class='addenControl' style="margin-top: 15px;">
+            <button type="button" onclick="plus('addend2')">+</button>
+            <p id='addend2' style="margin-left: 5%">0</p>
+            <button type="button" onclick="minus('addend2')" style="margin-left: 5%">-</button>
+          </div>
+          <br />
+        </div>
+        <div class="addenControl">
+          <p>sum: </p>
+          <p id='sum'>0</p>
+        </div>
+        
+      </body>
+</html>

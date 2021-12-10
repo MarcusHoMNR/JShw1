@@ -17,4 +17,9 @@ body{
     height:20px;
   }
 
+  .btn{
+    width: 10px; 
+    margin-left: 5px
+  }
+
 

@@ -8,23 +8,24 @@
         <title>Counter</title>
       </head>
       <body>
-        <div class = 'counterControl'>
+      <!-- counter-controller -->
+        <div class = 'counter-controller'>
           <br />
-          <div class='addenControl'>
-            <button type="button" onclick="plus('addend1')">+</button>
-            <p id='addend1'  class="btn">0</p>
-            <button type="button" onclick="minus('addend1')"style="margin-left: 5px">-</button>
+          <div class='addend-controller'>
+            <input type="button" class = 'item' value="+" onclick="plus('addend1')" />
+            <p id='addend1' class = 'item'>0</p>
+            <button type="button" class = 'item' onclick="minus('addend1')">-</button>
           </div>
           
-          <div class='addenControl' style="margin-top: 15px;">
-            <button type="button" onclick="plus('addend2')">+</button>
-            <p id='addend2' class="btn">0</p>
-            <button type="button" onclick="minus('addend2')" style="margin-left: 5px">-</button>
+          <div class='addend-controller' style="margin-top: 15px;">
+            <button type="button" class = 'item' onclick="plus('addend2')">+</button>
+            <p id='addend2' class="item">0</p>
+            <button type="button" class = 'item' onclick="minus('addend2')">-</button>
           </div>
           <br />
         </div>
 
-        <div class="addenControl">
+        <div class="addend-controller">
           <p style="white-space: pre;">sum: </p>
           <p id='sum'>0</p>
         </div>

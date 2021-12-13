@@ -1,4 +1,4 @@
-.counterControl{
+.counter-controller{
     border: solid brown;
     width: 20%;
     margin: 0 auto;
@@ -9,7 +9,7 @@ body{
     background-color: cyan;
 }
 
-.addenControl {
+.addend-controller {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,9 +17,9 @@ body{
     height:20px;
   }
 
-  .btn{
-    width: 10px; 
-    margin-left: 5px
+  .item{
+    width: 25px; 
+    text-align: center;
   }
 
 

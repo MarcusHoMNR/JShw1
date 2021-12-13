@@ -1,4 +1,4 @@
-function plus(targetComponentId) {
+function plus(targetComponentId) { 
     var currentNum = parseInt(document.getElementById(targetComponentId).innerHTML)
     document.getElementById(targetComponentId).innerHTML = (currentNum + 1).toString()
     calculateSum()
